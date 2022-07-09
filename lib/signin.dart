@@ -30,6 +30,8 @@ class signin extends State<signIn> {
                             child: Container(
                                 alignment: Alignment.center,
                                 child:Container(
+                                    margin:
+                                    EdgeInsets.all(20),
                                     constraints: BoxConstraints.expand(height: 175.0),
                                     decoration: BoxDecoration(color: Colors.black),
                                     child: Image.asset(

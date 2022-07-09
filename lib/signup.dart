@@ -28,6 +28,9 @@ class signup extends State<signUp> {
                             child: Container(
                                 alignment: Alignment.center,
                                 child: Container(
+
+                                    margin:
+                                      EdgeInsets.all(20),
                                     constraints:
                                         BoxConstraints.expand(height: 175.0),
                                     decoration:
